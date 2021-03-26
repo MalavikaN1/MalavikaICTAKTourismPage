@@ -1,0 +1,171 @@
+body
+{
+    background-image:linear-gradient(to right,#000000,#434343);
+    font-family:cursive;
+    color: #C2B246;
+}
+header
+{
+    text-decoration: none;
+    background-color: #151515;
+    color:rgb(191, 191, 191);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 30vh;
+    position: relative;
+}
+svg
+{
+   float: left;
+    display: inline;
+    margin: 2em 0em 0em 2em;
+    color: rgb(222, 137,47 );
+}
+
+header .left p
+{
+   float: left;
+   display: inline;
+   margin: 1.75em 0em 0em 0.5em;
+}
+header .right p
+{
+    float: right;
+    display: inline;
+    margin: 2em 0em 0em 2em;
+    font-weight: bold;
+}
+header nav
+{
+   float:right;
+   display: inline;
+   margin: 2em 0em 0em 2em;
+   
+}
+.fa
+{
+    color:rgb(191, 191, 191);
+    width:30px;
+}
+.navbar{
+    margin-top:-100px;
+    width:90%;
+    height: 140px;
+    margin-left:auto;
+    margin-right: auto;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    z-index:9;
+}
+
+.navbar li a
+{
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-weight:700;
+}
+
+.navbar-brand
+{  
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-weight:800;
+    font-size:18px;
+}
+ .w-100 
+ {
+    width: 100% !important;
+    height: 75vh;
+  }
+.carousel
+{
+    margin-top:-100px;
+    position: relative;
+}
+
+
+.logo
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+}
+.intro p
+{
+    font-family:cursive;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 2em;
+    padding: 20px;
+    margin-top: 30px;
+    float:left;
+    width:70%;
+    color: #75AE9C;
+    
+}
+.intro h2
+{
+    font-family:cursive;
+    font-weight: bold;
+    color: #C2B246;
+    margin-top: 40px;
+    text-align: center;
+    position: relative;
+
+}
+
+.mapouter
+{
+    float: left;
+    width: 30%;
+    margin-left: 20px;
+    margin-bottom:5px;
+}
+footer
+{
+    background-color:rgb(0, 0, 0,0.5);
+    height: 20px;
+    text-align: center;
+    font-size: 15px;
+    color: #999;
+    width: 100%;
+    clear:both;
+    margin:auto;
+    margin-top:20px;
+    overflow:hidden;
+}
+.image-grid-cover {
+    width: 100%;
+    background-size: cover;
+    min-height: 180px;
+    position: relative;
+    margin-bottom: 30px;
+    text-shadow: rgba(0,0,0,.8) 0 1px 0;
+    border-radius: 4px;
+}
+.image-grid-clickbox {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    background: rgba(0,0,0,.45);
+}
+.cover-wrapper {
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    color: #fff;
+    text-shadow: rgba(0,0,0,.8) 0 1px 0;
+    z-index: 21;
+    position: relative;
+    top: 80px;
+}
+a, a:focus, a:hover {
+    text-decoration: none;
+    outline: 0;
+}
